@@ -10,6 +10,10 @@ public class stack_class {
     private int s[];
     private int Maxsize, tos;
 
+    public stack_class(int size) {
+        Maxsize = size;
+    }
+
     public void push(int e)// push:inserts an element on TOS
     {
         if (isfull() == true) {
@@ -50,7 +54,7 @@ public class stack_class {
             return temp;
             // return(s[tos--]);
         }
-        return 0;  
+        return 0;
 
     }
 
@@ -63,4 +67,5 @@ public class stack_class {
             System.out.println(s[i]);
         }
     }
+    // add the menu driven part from here
 }
