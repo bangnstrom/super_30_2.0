@@ -1,0 +1,15 @@
+use prompts
+
+act as java dsa tutor,give me step to solve this problem :url,explain in simple English
+
+act as java dsa tutor,give me code with step by step explaination in code to solve this problem :url,explain in simple English
+
+
+act as tutor,read code and explain its working with example "paste code":
+
+ACE
+Actor/Action
+Context
+Expectation
+
+act as interviewer,i am done with <topic>,give me 5 interview based problems to code that can test my knowledge
